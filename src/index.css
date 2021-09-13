@@ -1,8 +1,9 @@
+@import url('https://s3.amazonaws.com/bio-fm-cdn/favico.png" rel="icon" media="all');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  padding: 0;
+  font-family: Sofia Pro Regular,Helvetica,Arial,sans-serif!important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -10,4 +11,134 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.heading{
+  height:170px;
+  width:100%;
+  background-color: rgb(64,224,208,100);
+  text-align: center;
+  opacity: 0.9;
+}
+  .heading img{
+    height:50px;
+    width:50px;
+    border-radius: 100%;
+    margin:30px auto;
+  }
+  .heading h2{
+    margin-top: -15px;
+    color: rgba(77,77,77,100);
+    font-size: 1.375rem;
+    font-weight:800;
+    line-height: 1.2;
+  }
+  .heading h6{
+    margin-top:1px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+  .heading button{
+    background-color: rgb(77, 206, 77);
+    border: none;
+    border-radius:8px;
+    padding:7px;
+    font-weight:800;
+    color: white;
+    text-transform: uppercase;
+    font-size:12px;
+  }
+
+.card {
+  width:400px;
+  margin:20px 36%;
+  border: none;
+  border-radius: 1px solid ;
+  display: inline-block;
+  border-bottom: 1px solid hsl(240, 4%, 71%);
+}
+.card button{
+  border-radius:10px;
+  border: none;
+  width: 400px;
+  text-align: left;
+  align-items: center;
+  background-color:hsl(240, 24%, 96%);
+  color:rgba(49,49,53);
+  padding:12px 10px;
+  margin-top:10px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.card h4{
+  display: inline-block;
+  width: 400px;
+  font-size:20px;
+  margin-right:75px;
+  font-weight: bold;
+  color: rgba(77,77,77,100);
+}
+.card span{
+  color: rgb(64,224,208,100);
+  border: 1px solid rgb(64,224,208,100);
+  border-radius:50%;
+  padding:1px 2px;
+  float: right;
+  font-size:5px;
+  transform: rotate(130deg);
+  -webkit-transform: rotate(130deg);
+  -ms-transform: rotate(130deg);
+}
+.you{
+  width: 400px;
+  height:270px;
+  margin-left: 36%;
+  font-family: Sofia Pro Regular,Helvetica,Arial,sans-serif!important;
+  border-bottom: 1px solid hsl(240, 4%, 71%);
+}
+.tube{
+  width:410px;
+  height:190px;
+  border: 1px solid black;
+  background-color:rgb(61, 61, 61) ;
+  border-radius: 10px;
+  margin-top:10px;
+  display: inline-block;
+}
+.tube img{
+  border-radius: 100%;
+  margin:40px 30px;
+}
+.text{
+  width:250px;
+  color: white;
+  height: 100px;
+ position: relative;
+ bottom: 150px;
+ left: 150px;
+}
+.text p{
+  margin-top:-20px ;
+  font-weight:normal;
+}
+.tube button{
+  border-radius: 10px;
+  background-color: red;
+border: none;
+padding: 10px;
+color: white;
+font-weight: bold;
+}
+
+@media only screen and (max-width:500px) {
+  .heading{
+    width: 100%;
+    margin: 0px;
+  }
+  .heading .bich{
+    margin-left:80px;
+  }
+ .card ,.you{
+   margin-left:9%;
+ }
 }
